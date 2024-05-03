@@ -55,10 +55,10 @@ int main() {
     user_playlists.insert({103, "Book G"});
     user_playlists.insert({103, "Article Y"});
 
-    cout << "\n=========================== Category Catalog ===========================" << endl;
+    cout << "\n======================= Category Catalog =======================" << endl;
     print_category_catalog(category_catalog);
 
-    cout << "\n=========================== User Playlists ===========================" << endl;
+    cout << "\n======================= User Playlists =======================" << endl;
     print_user_playlists(user_playlists);
 
     return 0;
